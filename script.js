@@ -120,7 +120,7 @@ const ingredientList = food => {
     for (let i = 1; i <= 15; i++) {
         let strIngredient = 'strIngredient' + i
         if (food[strIngredient]) {
-            li = li + `<li><span><i class="fas fa-check-square text-primary"></i></span> ${food[strIngredient]}</li>`;
+            li = li + `<li> ${i}) ${food[strIngredient]}</li>`;
         }
     }
     return li;
