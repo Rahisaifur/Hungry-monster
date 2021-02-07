@@ -1,0 +1,22 @@
+body 
+    { 
+    font: 62.5%/1.5  "Lucida Grande", "Lucida Sans", Tahoma, Verdana, sans-serif;  
+    color: #000000;     
+    text-align:center; 
+} 
+.navbar-brand img{
+
+    width: 100px;
+}
+.single-item-image{
+    width: 100%;
+    padding: 15px;
+    border-radius: 30px;
+}
+.items-image img{
+    transition: all.2s;
+}
+.items-image:hover img{
+    -webkit-filter: brightness(50%); 
+    filter: brightness(50%);
+}
